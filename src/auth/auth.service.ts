@@ -76,6 +76,7 @@ export class AuthService {
             );
 
         //send back the user
+        delete user.hash;
         return user;
     }
 

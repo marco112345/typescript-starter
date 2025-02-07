@@ -398,3 +398,7 @@ Temporary Items
 dist
 .webpack
 .serverless/**/*.zip
+
+node_modules
+# Keep environment variables out of version control
+.env

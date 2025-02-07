@@ -22,7 +22,7 @@ model User{
   hash String
 
   firstName String?
-  lastName Sting?
+  lastName String?
 
 }
 
